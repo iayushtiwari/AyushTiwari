@@ -284,7 +284,6 @@ footer i {
   color: var(--main-color);
   padding: 1rem;
   font-size: 200%;
-  /* margin-bottom: 2rem; */
   border: 1px solid #0ef;
   border-radius: 50%;
   transition: 0.2s ease;
@@ -331,9 +330,7 @@ header .menu {
     float: left;
   }
   .contentBox {
-    /* flex-direction: column; */
     display: unset;
-    /* min-width: 0; */
     padding: 0% 0 0 0;
     width: 100%;
   }
@@ -374,9 +371,7 @@ header .menu {
     margin-left: 0;
   }
   .About {
-    /* display: unset; */
     flex-direction: column-reverse;
-    /* background-color: var(--second-bg-color); */
   }
   .About p {
     font-size: 10px;
@@ -419,7 +414,6 @@ header .menu {
     width: fit-content;
   }
   .contactme form .input-box {
-    /* display: unset; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -427,7 +421,6 @@ header .menu {
   .contactme form .input-box input {
     font-size: 100%;
     width: 90%;
-    /* width: fit-content; */
     height: fit-content;
   }
   .contactme h1 {
@@ -449,20 +442,15 @@ header .menu {
   }
 
   footer {
-    /* display: unset; */
     align-items: center;
-    /* flex-wrap: wrap; */
-    /* padding: 4% 0 3% 0 ; */
+
     flex-direction: column;
   }
 
   footer div {
     width: 90%;
-    /* text-align: center; */
   }
-  /* footer div h2{
-    font-size:100%
-  } */
+
   nav {
     display: none;
   }
