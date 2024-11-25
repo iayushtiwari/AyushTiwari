@@ -320,7 +320,8 @@ header .menu {
   header .menu {
     display: unset;
     float: right;
-    font-size: 150%;
+    font-size: 250%;
+    margin-right: 5%;
   }
 
   nav {
@@ -347,10 +348,14 @@ header .menu {
   .contentBox h3 {
     font-size: 130%;
   }
-  .contentBox button {
-    font-size: 19%;
-    width: 37%;
-    padding: 2%;
+  .info .btn,
+  .info .btn-2 {
+    font-size: 100%;
+    width: 42%;
+    padding: 1%;
+  }
+  .info button a {
+    width: 100%;
   }
   .contentBox span {
     font-size: 150%;
@@ -359,7 +364,7 @@ header .menu {
     font-size: 180%;
   }
   .contentBox p {
-    font-size: 10px;
+    font-size: 150%;
     text-align: justify;
     padding-right: 5%;
   }
@@ -369,6 +374,7 @@ header .menu {
   }
   .iconSpace i {
     margin-left: 0;
+    font-size: 350%;
   }
   .About {
     flex-direction: column-reverse;
